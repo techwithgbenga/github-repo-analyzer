@@ -1,0 +1,28 @@
+{
+  "repositories": [
+    "octocat/Hello-World",
+    "torvalds/linux"
+  ],
+  "github": {
+    "token": "YOUR_GITHUB_PERSONAL_ACCESS_TOKEN"
+  },
+  "email": {
+    "sender": "your-email@gmail.com",
+    "receiver": "alert-recipient@example.com",
+    "smtp_server": "smtp.gmail.com",
+    "port": 465,
+    "password": "your-email-password"
+  },
+  "csv_file": "repo_stats.csv",
+  "plot_folder": "plots",
+  "alert_thresholds": {
+    "octocat/Hello-World": {
+      "min_stars": 100,
+      "max_open_issues": 50
+    },
+    "torvalds/linux": {
+      "min_stars": 100000,
+      "max_open_issues": 500
+    }
+  }
+}
