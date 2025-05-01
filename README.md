@@ -15,7 +15,7 @@ This project monitors GitHub repositories by fetching key metrics (stars, forks,
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/techwithgbenga/github_repo_analyzer.git
-   cd github-repo-analyzer
+   cd github_repo_analyzer
 ```
 2. Install Dependencies:
 ```bash
